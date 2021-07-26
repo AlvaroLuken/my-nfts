@@ -1,0 +1,23 @@
+[
+    {
+        "id": "price_1JHL6nJeAqbmNmrYm353Scsj",
+        "title": "CryptoPunk #6068",
+        "description": "Hiya ya-chump!",
+        "image": "/images/cryptopunk6068.png",
+        "price": 500000.00
+    },
+    {
+        "id": "price_1JHL7lJeAqbmNmrYqFuTnaHl",
+        "title": "MoonCat #22994",
+        "description": "Blue is a name!",
+        "image": "/images/mooncat.png",
+        "price": 250000.00
+    },
+    {
+        "id": "price_1JHLHdJeAqbmNmrYGu4vPn4u",
+        "title": "MoonCat #6313",
+        "description": "Purple beast!",
+        "image": "/images/mooncat2.png",
+        "price": 250000.00
+    }
+]

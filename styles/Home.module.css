@@ -71,14 +71,16 @@
 
 .grid {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  list-style: none;
+  max-width: 60em;
   margin-top: 3rem;
 }
 
 .card {
+  flex-basis: calc(33.33%-2rem);
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -88,6 +90,12 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
+}
+
+@media(min-width: 960px) {
+  .card {
+    flex-basis: calc(33.33% - 2rem);
+  }
 }
 
 .card:hover,
